@@ -17,6 +17,9 @@ digital_root(942)
 => 6
 
 
+
+CodeWars
+
 digital_root(132189)
 => 1 + 3 + 2 + 1 + 8 + 9
 => 24 ...

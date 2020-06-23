@@ -1,7 +1,7 @@
 function findOutlier(integers){
-  var even = [];
-  var odd = [];
- for (var i = 0; i < integers.length; i++) {
+  let even = [],
+      odd = [];
+ for (let i = 0; i < integers.length; i++) {
   (integers[i] % 2) === 0 ? even.push(integers[i]) : odd.push(integers[i]);
  }
  switch(even.length) {

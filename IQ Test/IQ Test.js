@@ -1,7 +1,7 @@
 function iqTest(numbers){
-  var ary = numbers.split(" ")
-  var even = []
-  var odd = []
+  let ary = numbers.split(" "),
+      even = [],
+      odd = [];
   
   ary.forEach(function(num){
     if ((Number(num) % 2) === 0) {

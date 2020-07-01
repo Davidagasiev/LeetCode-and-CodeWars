@@ -1,4 +1,4 @@
-var sortArray = function(nums) {
+const sortArray = (nums) => {
     let noSwaps;
     for(let i = nums.length - 1;i > 0;i--){
     	noSwaps = true;
